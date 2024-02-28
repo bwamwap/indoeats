@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flavours of Indonesia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<!-- P WILLIAM ASW -->
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#" id="title-navbar">IndoEats</a>
+            </div>
+            <div class="search-box">
+                <div class="search-input">
+                    <input type="text">
+                    <span class="placeholder-fade"></span>
+                </div>
+                <button type="submit" class="search-button">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </div>
+            <div class="language-switcher">
+                <label for="language-toggle">Lang:</label>
+                <select id="language-toggle">
+                    <option value="en">En</option>
+                    <option value="es">Es</option>
+                    <option value="fr">Fr</option>
+                </select>
+                <div class="navbar-username">
+                    <p> Hi, Ethan </p>
+                    <p class="navbar-profile-pict"> 
+                        <span class="material-symbols-outlined">
+                            account_circle
+                            </span>
+                    </p>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <nav class="mobile-navbar-top">
+        <div class="navbar-username">
+            <p> Hi, Ethan </p>
+            <p class="navbar-profile-pict"> 
+                <span class="material-symbols-outlined">
+                    account_circle
+                    </span>
+            </p>
+        </div>
+    </nav>
+    
+    <nav class="mobile-navbar-bottom">
+        <div class="search-box">
+            <div class="search-input">
+                <input type="text">
+                <span class="placeholder-fade"></span>
+            </div>
+            <button type="submit" class="search-button">
+                <span class="material-symbols-outlined">search</span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="home">
+        <div class="button">
+            <button id="scroll-button">Start your journey here</button>
+        </div>
+        <h2>Explore the Rich and Diverse Culinary Traditions</h2>
+        <h1>Welcome to IndoEats</h1>
+    </div>
+
+    <div class="form-referer">
+        <h1>TAKE A SURVEY TO PERSONALIZE YOUR RECOMMENDATIONS</h1>
+        <a href="form.html" ><button>Here</button></a>
+    </div>
+
+    <div class="recommendation-header">
+        <h1>RECOMMENDATIONS</h1>
+        <p>A selection of noteworthy cuisine originating from Indonesia</p>
+    </div>
+
+    <div class="recomendation-part">
+        <button class="scroll-button-left" onclick="scrollContent('left')"><span class="material-symbols-outlined">
+            arrow_back
+            </span>
+        </button>
+
+
+        <div class="recomendation" id="next-section">
+            <div class="recomendation-box-header">
+                <h2 class="dish-name">NASI GORENG KAMPUNG</h2>
+                <p class="dish-category"> RICE</p>
+            </div>
+            
+            <div class="rec-box-bottom">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4206921549735!2d104.75926447651091!3d-2.9806537320524624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b761205c9b9b1%3A0xd6b7a78ad73e9608!2sNasi%20Goreng%20Mang%20Ujuk!5e0!3m2!1sen!2sid!4v1696070891512!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            
+            
+        </div>
+        <button class="scroll-button-right" onclick="scrollContent('right')"><span class="material-symbols-outlined">
+            arrow_forward
+            </span></button>
+
+        
+        </div>
+        <div class="mobile-button">
+            <button class="scroll-button-left" onclick="scrollContent('left')"><span class="material-symbols-outlined">
+                arrow_back
+                </span>
+            </button>
+            <button class="scroll-button-right" onclick="scrollContent('right')"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></button>
+        </div>
+
+    <div class="category"> 
+        <h1>FOOD CATEGORY</h1>
+        <div class="list-category">
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Nasi Goreng</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/nasi-goreng.jpg" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Batagor</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/batagor.jpg" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Nasi Bakar</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/nasi-bakar.jpg" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Nasi Uduk</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/nasi-uduk.jpg" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Papeda</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/papeda.jpg" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Tahu Gejrot</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/tahu-gejrot.jpg" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Cendol</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/cendol.jpg" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Es Campur</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/es-campur.jpg" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+            <div class="nasi">
+                <button class="rec-new">
+                    <div class="rec-left">
+                        <h1 class="rec-title">Mie Ayam</h1>
+                        <p>☆☆☆☆☆</p>
+                        <p>Very Popular</p>
+                    </div>
+                    <div class="rec-right">
+                        <img src="assets/photo/home.png" alt="" class="desc-img">
+                    </div>
+                
+                </button>
+            </div>
+        </div>
+    </div>
+
+   
+    <footer class="desktop-footer">
+        <div class="object-left">
+            
+        </div>
+        <div class="left">
+            <h2>Indo Eats</h2>
+            <ul>
+                <li><p>Created By :</p></li>
+                <li><p>- Ethan Bastian</p></li>
+                <li><p>- M William Syarif</p></li>
+                <li><p>- Daniel Lee</p></li>
+              </ul>
+        </div>
+        <!-- <div class="middle">
+            <h2>Indo Eats</h2>
+            <ul>
+                <li><p>Created By :</p></li>
+                <li><p>- Ethan Bastian</p></li>
+                <li><p>- M William Syarif</p></li>
+                <li><p>- Daniel Lee</p></li>
+              </ul>
+        </div> -->
+        <div class="right">
+            <h2>Contact Us</h2>
+            <ul>
+                <li><p><a href="mailto:ethanbastian11@gmail.com">Email</a></p></li>
+                <li><p><a href="https://instagram.com/bastianeth__">Instagram</a></p></li>
+                <li><p><a href="https://wa.me/6281368449686">Whatsapp</a></p></li>
+              </ul>
+        </div>
+    </footer>
+
+    <footer class="mobile-footer">
+        <div class="object-left">
+            <div class="left">
+                <h2>Indo Eats</h2>
+                <ul>
+                    <li><p>Created By :</p></li>
+                    <li><p>- Ethan Bastian</p></li>
+                    <li><p>- Daniel Lee</p></li>
+                    <li><p>- M William Syarif</p></li>
+                </ul>
+            </div>
+            <!-- <div class="middle">
+                <h2>Indo Eats</h2>
+                <ul>
+                    <li><p>Created By :</p></li>
+                    <li><p>- Ethan Bastian</p></li>
+                    <li><p>- M William Syarif</p></li>
+                    <li><p>- Daniel Lee</p></li>
+                </ul>
+            </div> -->
+        </div>
+            
+
+        <div class="right">
+            <h2>Contact Us</h2>
+            <ul>
+                <li><p><a href="https://wa.me/6281368449686">Whatsapp</a></p></li>
+                <li><p><a href="https://instagram.com/bastianeth__">Instagram</a></p></li>
+                <li><p><a href="mailto:ethanbastian11@gmail.com">Email</a></p></li>
+              </ul>
+        </div>
+    </footer>
+</body>
+</html>
